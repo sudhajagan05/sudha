@@ -6,25 +6,25 @@ void main()
 
 {
 
-    int num1, num2, num3;
+    int n1, n2, n3;
 
  
 
-    printf("Enter the values of num1, num2 and num3\n");
+    printf("Enter the values of n1, n2 and n3\n");
 
-    scanf("%d %d %d", &num1, &num2, &num3);
+    scanf("%d %d %d", &n1, &n2, &n3);
 
-    printf("num1 = %d\tnum2 = %d\tnum3 = %d\n", num1, num2, num3);
+    printf("n1 = %d\tn2 = %d\tn3 = %d\n", n1, n2, n3);
 
-    if (num1 > num2)
+    if (n1 > n2)
 
     {
 
-        if (num1 > num3)
+        if (n1 > n3)
 
         {
 
-            printf("num1 is the greatest among three \n");
+            printf("n1 is the greatest among three \n");
 
         }
 
@@ -32,18 +32,18 @@ void main()
 
         {
 
-            printf("num3 is the greatest among three \n");
+            printf("n3 is the greatest among three \n");
 
         }
 
     }
 
-    else if (num2 > num3)
+    else if (n2 > n3)
 
-        printf("num2 is the greatest among three \n");
+        printf("n2 is the greatest among three \n");
 
     else
 
-        printf("num3 is the greatest among three \n");
+        printf("n3 is the greatest among three \n");
 
 }
