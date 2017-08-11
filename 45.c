@@ -1,17 +1,17 @@
 #include <stdio.h>
 
-#define MIN 0
-#define MAX 9 
+#define mi 0
+#define ma 9 
 
 int main()
 {
     int n;
 
     while (1) {
-        printf("Enter a number (%d-%d) :", MIN, MAX);
+        printf("Enter a number (%d-%d) :",mi , ma);
         scanf("%d", &n);
 
-        if (n >= MIN && n <= MAX) {
+        if (n >= mi && n <= ma) {
             printf("Good\n");
         } else {
             printf("Damn you!\n");
