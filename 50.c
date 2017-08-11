@@ -1,14 +1,14 @@
+
 #include <stdio.h>
  
 int main()
 {
     int num;
     int tempNum,flag;
-     
     printf("Enter an integer number: ");
     scanf("%d",&num);
      
-    tempNum=num;
+    temp Num=num;
     flag=0;
  
     while(tempNum!=1)
