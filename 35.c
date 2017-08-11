@@ -6,7 +6,7 @@ int main()
     int countDigits,countAlphabet,countSpecialChar,countSpaces;
     int counter;
  
-    //assign all counters to zero
+   
     countDigits=countAlphabet=countSpecialChar=countSpaces=0;
  
     printf("Enter a string: ");
