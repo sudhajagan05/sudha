@@ -1,15 +1,13 @@
 #include<stdio.h>
 
 int main() {
-   int x, y, temp;
+   int s, y, temp;
    printf("Enter the value of x and y: ");
-   scanf("%d %d", &x, &y);
-   printf("Before swapping x=%d, y=%d ", x, y);
-    
-   /*Swapping logic */
-   temp = x;
-   x = y;
+   scanf("%d %d", &s, &y);
+   printf("Before swapping x=%d, y=%d ", s, y);
+   temp = s;
+   s= y;
    y = temp;
-   printf("After swapping x=%d, b=%d", x, y);
+   printf("After swapping x=%d, b=%d", s, y);
    return 0; 
 }
