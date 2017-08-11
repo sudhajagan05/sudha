@@ -6,7 +6,7 @@ int main()
     printf("Enter an integer: ");
     scanf("%d", &e);
 
-    while(n != 0)
+    while(e != 0)
     {
         remainder = e%10;
         reversedNumber = reversedNumber*10 + remainder;
