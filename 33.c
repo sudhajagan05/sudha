@@ -4,17 +4,17 @@
  
 int main()
 {
-    char a, word[50];
+    char r, word[50];
     int i, freq = 0, flag = 0;
  
     printf("Enter character: ");
-    scanf("%c", &a);
+    scanf("%c", &r);
     printf("Now enter the word: ");
     scanf("%s", word);
-    printf("Positions of '%c' in %s are: ", a, word);
+    printf("Positions of '%c' in %s are: ", r, word);
     for (i = 0; i < strlen(word); i++)
     {
-        if (word[i] == a)
+        if (word[i] == r)
         {
             flag = 1;
             printf("%d  ", i + 1);
@@ -23,7 +23,7 @@ int main()
     }
     if (flag)
     {
-        printf("\nCharacter '%c' occured for %d times.\n", a, freq);
+        printf("\nCharacter '%c' occured for %d times.\n", r, freq);
     }
     else
     {
