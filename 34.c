@@ -2,7 +2,7 @@
 #include<conio.h>
 int main()
 {
- int count_words=0,i;
+ int count_words=0,p;
  int count_char=0;
  char str[20];
  printf("Enter string : ");
@@ -10,7 +10,7 @@ int main()
  for(i=0; str[i]!=NULL; i++)
  {
    count_char++;
-   if(str[i]==' ')
+   if(str[p]==' ')
       count_words++;
  }
  printf("\nNumber of characters in string : %d",count_char);
