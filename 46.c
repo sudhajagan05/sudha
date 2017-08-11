@@ -1,14 +1,14 @@
 #include <stdio.h>
 int main()
 {
-    int n, i;
+    int y, i;
 
     printf("Enter an integer: ");
-    scanf("%d",&n);
+    scanf("%d",&y);
 
     for(i=1; i<=10; ++i)
     {
-        printf("%d * %d = %d \n", n, i, n*i);
+        printf("%d * %d = %d \n", y, i, y*i);
     }
     
     return 0;
