@@ -12,13 +12,13 @@ void main()
 
     count = 2;
 
-    while (count < l)
+    while (cut < l)
 
     {
 
         fib3 = fib1 + fib2;
 
-        count++;
+        cut++;
 
         printf("%d\n", fib3);
 
