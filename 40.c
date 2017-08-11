@@ -2,7 +2,7 @@
 void main()
 {
 
-    scanf("%d", &limit);
+    scanf("%d", & l);
 
     printf("Fibonacci Series is ...\n");
 
@@ -12,7 +12,7 @@ void main()
 
     count = 2;
 
-    while (count < limit)
+    while (count < l)
 
     {
 
